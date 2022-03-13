@@ -1,0 +1,10 @@
+name: GuiTender
+version: 0.1
+main: gui.tender.Main
+depend:
+  - Vault
+
+
+commands:
+  ihale:
+    description: ''
