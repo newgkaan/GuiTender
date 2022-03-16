@@ -12,7 +12,7 @@ public class VUtils {
         this.version = version;
 
 
-        if (version.contains("1.8") || version.contains("1.9") || version.contains("1.10") || version.contains("1.11") || version.contains("1.12")) {
+        if (version.contains("1.7") || version.contains("1.8") || version.contains("1.9") || version.contains("1.10") || version.contains("1.11") || version.contains("1.12")) {
             kitap = new ItemStack(Material.getMaterial("BOOK_AND_QUILL"));
             onayla = new ItemStack(Material.getMaterial("WOOL"), 1, (short) 5);
             iptal = new ItemStack(Material.getMaterial("WOOL"), 1, (short) 14);
